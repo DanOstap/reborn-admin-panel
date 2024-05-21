@@ -1,0 +1,21 @@
+#Panel{
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+.Panel_buttons{
+    background-color: inherit;
+    margin-left: 10%;
+    color: white;
+    position: relative;
+    font-size: 120%;
+    border: 1px solid #A321CA;
+    height: 100%;
+    width:  20vw;
+    text-align: center;
+    padding: 14px 16px;
+}
+.Panel_buttons:hover{
+    animation-duration: 2s;
+    box-shadow:4px 0 0 3px #A321CA;
+}
