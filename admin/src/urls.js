@@ -7,5 +7,12 @@ var  urls = {
     DeleteUser: "",
     PutItem: "",
     PutUsers: "",
+    GetAllOrdersByUser:"",
+    GetAllOrdersByProduct:"",
+    Server:{
+        Start: "",
+        Restart: "",
+        Files: ""
+    }
 }
-export default urls
+export default urls;

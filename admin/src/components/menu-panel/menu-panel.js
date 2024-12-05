@@ -10,7 +10,7 @@ const MenuPanel = () =>{
     const handleClick = (value) =>{
         switch (value) {
             case "Add":
-                Add===true?setAdd(false) : setAdd(true);
+                Add === true?setAdd(false) : setAdd(true);
                 setItem(false);
                 setUsers(false);
                 break;
